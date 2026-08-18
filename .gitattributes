@@ -1,0 +1,12 @@
+# Project-specific overrides
+# Exclude build artifacts
+docs/*.html linguist-vendored
+src/** linguist-detectable
+*.svg text
+package-lock.json linguist-generated
+docs/**/*.html linguist-vendored
+yarn.lock linguist-generated
+src/**/*.ts linguist-detectable
+
+Cargo.lock linguist-generated 
+node_modules/* linguist-vendored
